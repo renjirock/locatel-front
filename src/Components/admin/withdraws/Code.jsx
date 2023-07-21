@@ -50,26 +50,26 @@ class Code extends Component {
         return (
         <Fragment>
             <div
-            class="modal fade"
+            className="modal fade"
             id="codeModal"
             tabindex="-1"
             aria-labelledby="codeModalLabel"
             aria-hidden="true"
             >
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="codeModalLabel">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                <div className="modal-header">
+                    <h5 className="modal-title" id="codeModalLabel">
                     Retirar Dinero
                     </h5>
                     <button
                     type="button"
-                    class="btn-close"
+                    className="btn-close"
                     data-bs-dismiss="modal"
                     aria-label="Close"
                     ></button>
                 </div>
-                <div class="modal-body">
+                <div className="modal-body">
                     <form id="Wm">
                     <div className="form-floating mb-3">
                         <input
@@ -86,10 +86,10 @@ class Code extends Component {
                         <h4>Recuerda que tienes 30 min para retirarlo o se eliminara el token</h4>
                     </div>
                 </div>
-                <div class="modal-footer">
+                <div className="modal-footer">
                     <button
                     type="button"
-                    class="btn btn-secondary"
+                    className="btn btn-secondary"
                     data-bs-dismiss="modal"
                     >
                     Cancelar
@@ -97,7 +97,7 @@ class Code extends Component {
                     <button
                     type="button"
                     id="getMoney"
-                    class="btn btn-primary"
+                    className="btn btn-primary"
                     onClick={this.handleClick}
                     >
                     Retirar dinero

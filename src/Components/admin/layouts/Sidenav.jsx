@@ -20,7 +20,7 @@ class Sidenav extends Component {
                                 Envia dinero
                             </Link>
                             <Link className="nav-link" to={'/admin/withdraw'}>
-                                <div className="sb-nav-link-icon"><i class="fa-solid fa-circle-arrow-down"></i></div>
+                                <div className="sb-nav-link-icon"><i className="fa-solid fa-circle-arrow-down"></i></div>
                                 Retira Dinero
                             </Link>
                         </div>
