@@ -51,7 +51,8 @@ class Withdraw extends Component {
                                     <thead>
                                         <tr>
                                             <th scope="col">Value</th>
-                                            <th scope="col">created_at</th>
+                                            <th scope="col">Activo</th>
+                                            <th scope="col">Fecha</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -60,6 +61,7 @@ class Withdraw extends Component {
                                                 return(
                                                     <tr>
                                                         <td>{withdraw.value}</td>
+                                                        <td>{withdraw.is_active ? 'si' : 'No'}</td>
                                                         <td>{withdraw.created_at}</td>
                                                     </tr>
                                                     )
